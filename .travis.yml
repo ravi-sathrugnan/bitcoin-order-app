@@ -8,7 +8,7 @@ sudo: required
 notifications:
   email:
     recipients:
-      - bunnyppl@gmail.com
+      - ravi_s_shankar@yahoo.co.uk
     on_success: always
     on_failure: always
 branches:
@@ -18,7 +18,7 @@ before_script:
   - npm install -g @angular/cli
   - npm install -g now
 script:
-  - ng build --prod --base-href https://kenken64.github.io/bitcoin-order-app/
+  - ng build --prod --base-href https://ravi-sathrugnan.github.io/bitcoin-order-app/
 
   
 deploy:
