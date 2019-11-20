@@ -16,11 +16,10 @@ branches:
    - development
 before_script:
   - npm install -g @angular/cli
-  - npm install -g now
+
 script:
   - ng build --prod --base-href https://ravi-sathrugnan.github.io/bitcoin-order-app/
 
-  
 deploy:
   provider: pages
   skip_cleanup: true
